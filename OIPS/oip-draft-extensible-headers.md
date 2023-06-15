@@ -1,4 +1,4 @@
-OIP Number   | 
+OIP Number    | 
 :-------------|:----
 Title         | Extensible Inscription Headers
 Description   | A HTTP-influenced approach to extensible headers in Ordinal Inscriptions
