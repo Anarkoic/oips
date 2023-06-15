@@ -38,18 +38,18 @@ After the initial OP_PUSH 1 following by OP_PUSH content-type, additional pairs 
 
 Example:
 
-OP_FALSE
-OP_IF
-  OP_PUSH "ord"
-  OP_PUSH 1
-  OP_PUSH "text/plain;charset=utf-8"
-  OP_PUSH 1
-  OP_PUSH "Content-Encoding: gzip"
-  OP_PUSH 1
-  OP_PUSH "X-Other-Header: ordiordiordi"
-  OP_PUSH 0
-  OP_PUSH "Hello, world!"
-OP_ENDIF
+    OP_FALSE
+    OP_IF
+      OP_PUSH "ord"
+      OP_PUSH 1
+      OP_PUSH "text/plain;charset=utf-8"
+      OP_PUSH 1
+      OP_PUSH "Content-Encoding: gzip"
+      OP_PUSH 1
+      OP_PUSH "X-Other-Header: ordiordiordi"
+      OP_PUSH 0
+      OP_PUSH "Hello, world!"
+    OP_ENDIF
 
 
 ## Test Cases
